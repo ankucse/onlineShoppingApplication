@@ -1,20 +1,18 @@
 package com.project.repository;
 
-import java.util.List;
-
+import com.project.model.Address;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.project.model.Address;
+import java.util.List;
 
 
 @Repository
-public interface AddressDao extends JpaRepository<Address, Integer>{
-	
-	public Address findByaddressId(Integer addressId);
-	
-	public List<Address> findByCity(String city);
-	
-	
+public interface AddressDao extends JpaRepository<Address, Integer> {
+
+    public Address findByaddressId(Integer addressId);
+
+    public List<Address> findByCity(String city);
+
 
 }

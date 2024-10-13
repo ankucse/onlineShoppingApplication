@@ -9,14 +9,14 @@ import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 @SpringBootApplication
 public class OnlineShopingAppApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(OnlineShopingAppApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(OnlineShopingAppApplication.class, args);
+    }
 
-	@Bean
-	public LocalValidatorFactoryBean validator(MessageSource ms) {
-	LocalValidatorFactoryBean lvfb=new LocalValidatorFactoryBean();
-	lvfb.setValidationMessageSource(ms);
-	return lvfb;
-	}
+    @Bean
+    public LocalValidatorFactoryBean validator(MessageSource ms) {
+        LocalValidatorFactoryBean lvfb = new LocalValidatorFactoryBean();
+        lvfb.setValidationMessageSource(ms);
+        return lvfb;
+    }
 }

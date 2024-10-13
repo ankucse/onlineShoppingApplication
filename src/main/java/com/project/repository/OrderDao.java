@@ -1,15 +1,15 @@
 package com.project.repository;
 
-import java.util.List;
-
+import com.project.model.MyOrder;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.project.model.MyOrder;
+import java.util.List;
+
 @Repository
-public interface OrderDao extends JpaRepository<MyOrder, Integer>{
+public interface OrderDao extends JpaRepository<MyOrder, Integer> {
 
 
-	public List<MyOrder> findAll();
-	
+    public List<MyOrder> findAll();
+
 }

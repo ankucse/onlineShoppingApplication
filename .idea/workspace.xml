@@ -4,12 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bfc5b4-0634-4d1f-ad87-5abeca5b7d23" name="Changes" comment="" />
+    <list default="true" id="d9bfc5b4-0634-4d1f-ad87-5abeca5b7d23" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/OnlineShopingAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/OnlineShopingAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/AddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/controller/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/ProductsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/exception/AddressNotFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/exception/AddressNotFound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/exception/CustomerNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/exception/CustomerNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/exception/MyErrorDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/exception/MyErrorDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/exception/OrderNotfoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/exception/OrderNotfoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/exception/ProductNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/exception/ProductNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/exception/UserAlreadyExists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/exception/UserAlreadyExists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/model/CategoryEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/model/CategoryEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/model/CurrentUserSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/model/CurrentUserSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/model/MyOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/model/MyOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/model/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/model/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/model/ProductsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/model/ProductsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/model/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/model/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/repository/AddressDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/AddressDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/repository/CartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/CartDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/repository/CurrentUserSessionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/CurrentUserSessionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/repository/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/repository/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/repository/ProductsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/ProductsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/repository/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/AddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/AddressServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/ProductsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/ProductsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/ProductsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/ProductsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/UserLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/UserLoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/UserLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/UserLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/UserServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ankucse"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ankucse/onlineShoppingApplication.git",
+    "accountId": "9aab4cf0-b619-4122-8994-53abf548041a"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -32,6 +94,7 @@
     "Application.OnlineShopingAppApplication.executor": "Run",
     "Maven.OnlineShopingApp [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/optimise",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "MavenSettings"
   }
@@ -71,5 +134,16 @@
       <updated>1728840474354</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
